@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-import math
 """_summary_
     """
+import math
 
 
 def floor(n: float) -> int:
