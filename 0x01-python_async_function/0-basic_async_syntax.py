@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-
-import asyncio
-import random
 """_summary_
     """
 
+import asyncio
+import random
 
-async def wait_random(max_delay=10):
+
+async def wait_random(max_delay=10) -> float:
     """_summary_
 
     Args:
