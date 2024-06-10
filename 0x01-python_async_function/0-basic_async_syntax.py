@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""_summary_
-    """
 
 import asyncio
 import random
+"""_summary_
+    """
 
 
 async def wait_random(max_delay=10):
