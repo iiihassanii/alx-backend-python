@@ -14,7 +14,4 @@ async def async_comprehension():
     Returns:
         _type_: _description_
     """
-    result = []
-    async for i in async_generator():
-        result.append(i)
-    return result
+    return [result async for result in async_generator()]
