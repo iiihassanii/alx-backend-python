@@ -7,10 +7,10 @@
 
 import random
 import asyncio
-from typing import List
+from typing import AsyncGenerator
 
 
-async def async_generator() -> List[float]:
+async def async_generator() -> AsyncGenerator[float, None]:
     """_summary_
 
     Yields:
